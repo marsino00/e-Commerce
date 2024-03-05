@@ -3,7 +3,7 @@ const port =process.env.PORT;
 const API = process.env.API;
 const DB_MONGO = process.env.DB_MONGO;
 
-const express = require("express");
+const express =require("express");
 const app = express();
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
